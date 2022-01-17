@@ -1,38 +1,49 @@
 .App {
+  height: 100vh;
+  background-color: #ccc;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+
+.contacto {
+  color: #fff;
+  width: 100vw;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@media screen and (max-width: 42em) {
+  .App {
+    background-image: url('./assets/Screen_480x930.jpg');
+  }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  h1 {
+    font-size: 2em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media screen and (max-width: 60em) {
+  .App {
+    background-image: url('./assets/Screen_768x1165.jpg');
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .App {
+    background-image: url('./assets/Screen_1920x1080.png');
+  }
+
+  .contacto {
+    position: absolute;
+  }
+}
+
+/*768px, 480px, 42em, 60em, and 81em*/
