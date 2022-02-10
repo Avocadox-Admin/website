@@ -1,14 +1,23 @@
-import sl1 from '../assets/sl1_1400x700.png';
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+
 import certs from '../assets/logos_certificaciones.png';
 import frescos from '../assets/frescos.png';
 import guacamole from '../assets/guacamole.png';
 import aceite from '../assets/aceite.png';
 import interactive from '../assets/interactive.png';
+import Slider from '../components/Slider';
 
 const Home = () => {
+  const navigate = useNavigate();
+
+  const handleNavigate = () => {
+    navigate('/frescos');
+  };
+
   return (
     <>
-      <img src={sl1} alt="slider 1" />
+      <Slider />
       <div className="h-[600px] grid grid-cols-2 gap-8 items-center justify-center bg-[#C4C4C4]">
         <div className="px-24">
           <div className="text-4xl font-black mb-4">Desarrollo Sustentable</div>
@@ -40,7 +49,7 @@ const Home = () => {
         <div>
           <div className="grid grid-cols-1 justify-items-center">
             <div className="text-center">
-              <img src={frescos} />
+              <img className="cursor-pointer" src={frescos} onClick={handleNavigate} />
               <span>Frescos</span>
             </div>
           </div>
