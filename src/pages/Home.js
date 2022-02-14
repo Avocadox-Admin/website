@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 
 import certs from '../assets/logos_certificaciones.png';
 import frescos from '../assets/frescos.png';
@@ -11,8 +11,8 @@ import Slider from '../components/Slider';
 const Home = () => {
   const navigate = useNavigate();
 
-  const handleNavigate = () => {
-    navigate('/frescos');
+  const handleNavigate = (navigateTo) => {
+    navigate(navigateTo);
   };
 
   return (
@@ -29,7 +29,11 @@ const Home = () => {
             <strong> BIENESTAR</strong> de tu país, ciudad grupo de amigos y de tu familia. Tú eres
             parte de este esfuerzo y compromiso.
           </div>
-          <button>¿Sabes como?</button>
+          <button
+            className="bg-black text-white h-12 rounded-full px-4"
+            onClick={() => handleNavigate('/sustentabilidad')}>
+            ¿Sabes cómo?
+          </button>
         </div>
         <div className="flex justify-center">
           <img src={interactive} />
@@ -49,7 +53,11 @@ const Home = () => {
         <div>
           <div className="grid grid-cols-1 justify-items-center">
             <div className="text-center">
-              <img className="cursor-pointer" src={frescos} onClick={handleNavigate} />
+              <img
+                className="cursor-pointer"
+                src={frescos}
+                onClick={() => handleNavigate('/frescos')}
+              />
               <span>Frescos</span>
             </div>
           </div>
@@ -65,12 +73,12 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="w-4/5">
-        <hr width="80%" />
-      </div>
+      <hr className="w-6" />
       <div className="h-[600px] bg-black text-white flex flex-col gap-28 items-center justify-center">
         <div className="text-4xl font-black">Certificaciones</div>
-        <img src={certs} />
+        <Link to={'/certificaciones'}>
+          <img src={certs} />
+        </Link>
       </div>
     </>
   );

@@ -13,7 +13,7 @@ import TopBar from './components/TopBar';
 
 function App() {
   return (
-    <div className="bg-black">
+    <div>
       <TopBar />
       <Routes>
         <Route path="/sustentabilidad" element={<Sustentabilidad />} />

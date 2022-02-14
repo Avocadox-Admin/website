@@ -5,9 +5,9 @@ import { ReactComponent as BurgerIcon } from '../assets/burgerIcon.svg';
 
 const routeLinks = [
   { label: 'Desarrollo Sostenible', path: '/sustentabilidad' },
-  { label: 'Etapas del Producto', path: '/etapas' },
+  { label: 'Etapas del Producto', path: '/frescos' },
   { label: 'Certificaciones', path: '/certificaciones' },
-  { label: 'Contacto', path: '/contacto' }
+  { label: 'Contacto', path: '/' }
 ];
 
 const TopBar = () => {
@@ -26,7 +26,7 @@ const TopBar = () => {
           <ul className="flex uppercase text-center">
             {routeLinks.map((link) => (
               <li className="w-36" key={link.label}>
-                {link.label}
+                <Link to={link.path}>{link.label}</Link>
               </li>
             ))}
           </ul>

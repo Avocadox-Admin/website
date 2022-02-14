@@ -16,13 +16,18 @@ const Footer = () => {
         <MailIcon className="w-8 h-8" /> info@avocadoxmx.com
       </div>
       <div className="flex justify-center items-end pb-4">Disclaimer / Politica de Privacidad</div>
-      <div>
-        <div>
-          <PhoneIcon className="w-8 h-8" /> +52 4431396055
+      <div className="flex flex-col justify-center">
+        <div className="flex gap-3">
+          <div>
+            <PhoneIcon className="w-8 h-8" />
+          </div>
+          <div>+52 4431396055</div>
         </div>
-        <div>
-          <LocationIcon className="w-8 h-8" /> Carretera Morelia-Pátzcuaro KM 31 Lagunillas
-          Michoacán CP 58450
+        <div className="flex gap-3">
+          <div>
+            <LocationIcon className="w-8 h-8" />
+          </div>
+          <div>Carretera Morelia-Pátzcuaro KM 31 Lagunillas Michoacán CP 58450</div>
         </div>
       </div>
     </div>

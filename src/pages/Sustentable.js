@@ -26,6 +26,7 @@ const Sustentabilidad = () => {
           y buscar que los recursos michoacanos se queden en Michoacán.
         </div>
       </div>
+      <div className="h-60"></div>
     </div>
   );
 };

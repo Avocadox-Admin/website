@@ -11,7 +11,7 @@ import reainforest from '../assets/rainforest.png';
 
 const Certificaciones = () => {
   return (
-    <div className="bg-white mt-28 max-w-7xl px-40 py-20">
+    <div className="bg-white mt-28 max-w-7xl pl-40 py-20">
       <div className="text-5xl font-black mb-40">Contamos con certificaciones internacionales</div>
       <div className="grid grid-cols-3 gap-4">
         <div>

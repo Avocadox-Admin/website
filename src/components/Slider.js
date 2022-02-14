@@ -48,7 +48,7 @@ const Slider = () => {
   };
 
   return (
-    <div ref={slideref} className="select-none relative">
+    <div ref={slideref} className="flex justify-center select-none relative bg-black">
       <div className="aspect-auto">
         <img src={sliderImages[currentIndex]} alt="" />
       </div>
