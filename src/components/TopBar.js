@@ -13,9 +13,9 @@ const routeLinks = [
 const TopBar = () => {
   return (
     <div className="flex absolute top-0 w-full h-[100px] bg-black/70 text-white drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] items-center z-10">
-      <div className="px-12 grow-0">
+      <div className="px-12 grow-0 pt-6">
         <Link to="/">
-          <img className="max-w-[135px]" src={logo} alt="logo" />
+          <img className="max-w-[250px]" src={logo} alt="logo" />
         </Link>
       </div>
       <div className="grow flex justify-end">
