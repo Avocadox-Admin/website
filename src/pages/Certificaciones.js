@@ -35,9 +35,9 @@ const Certificaciones = () => {
           <img src={ctpat} alt="CTPAT" />
         </div>
         <div className="col-span-2">
-          son las siglas de Customs Trade Partnership Against Terrorism (Asociación Comercial
+          Son las siglas de Customs Trade Partnership Against Terrorism (Asociación Comercial
           Aduanera contra el Terrorismo) y forma parte de la estrategia de control de la carga del
-          Servicio de Aduanas y Protección de Fronteras de Estados Unidos (CBP)
+          Servicio de Aduanas y Protección de Fronteras de Estados Unidos (CBP).
         </div>
         <div>
           <img src={globalGap} alt="Global GAP" />
@@ -45,7 +45,7 @@ const Certificaciones = () => {
         <div className="col-span-2">
           Global GAP es un conjunto de normas agrícolas reconocidas internacionalmente, se dedican a
           las Buenas Prácticas de Agricultura (GAP). Disponible en 3 ámbitos de producción:
-          Cultivos, Producción Animal y Acuicultura
+          Cultivos, Producción Animal y Acuicultura.
         </div>
         <div>
           <img src={primusGFS} alt="Primus GFS" />

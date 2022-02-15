@@ -12,8 +12,16 @@ const Footer = () => {
       <div className="flex justify-center items-center gap-2">
         <WhatsappIcon className="w-8 h-8" />
         <InstagramIcon className="w-8 h-8" />
-        <FacebookIcon className="w-8 h-8" />
-        <MailIcon className="w-8 h-8" /> info@avocadoxmx.com
+        <a
+          href="https://www.facebook.com/Avocadox-112944244511727"
+          target="_blank"
+          rel="noreferrer">
+          <FacebookIcon className="w-8 h-8" />
+        </a>
+        <a href="mailto:info@avocadoxmx.com">
+          <MailIcon className="w-8 h-8" />
+        </a>
+        <a href="mailto:info@avocadoxmx.com">info@avocadoxmx.com</a>
       </div>
       <div className="flex justify-center items-end pb-4">Disclaimer / Politica de Privacidad</div>
       <div className="flex flex-col justify-center">
