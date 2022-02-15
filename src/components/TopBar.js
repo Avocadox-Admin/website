@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import logo from '../assets/avocadox_logo.png';
+import { Link } from 'react-router-dom';
+import logo from '../assets/avocadox-logo.png';
 import { ReactComponent as BurgerIcon } from '../assets/burgerIcon.svg';
 
 const routeLinks = [
@@ -11,9 +11,6 @@ const routeLinks = [
 ];
 
 const TopBar = () => {
-  const location = useLocation();
-  console.log(location);
-
   return (
     <div className="flex absolute top-0 w-full h-[100px] bg-black/70 text-white drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] items-center z-10">
       <div className="px-12 grow-0">
