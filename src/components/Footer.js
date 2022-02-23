@@ -18,10 +18,10 @@ const Footer = () => {
           rel="noreferrer">
           <FacebookIcon className="w-8 h-8" />
         </a>
-        <a href="mailto:info@avocadoxmx.com">
+        <a href="mailto:direccion@avocadoxmx.com">
           <MailIcon className="w-8 h-8" />
         </a>
-        <a href="mailto:info@avocadoxmx.com">info@avocadoxmx.com</a>
+        <a href="mailto:direccion@avocadoxmx.com">direccion@avocadoxmx.com</a>
       </div>
       <div className="flex justify-center items-end pb-4">Disclaimer / Politica de Privacidad</div>
       <div className="flex flex-col justify-center">
