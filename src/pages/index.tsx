@@ -1,10 +1,14 @@
 import React from 'react';
+import { navigate, Link } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image';
 
 import Layout from '../components/Layout';
-import { Link } from 'gatsby';
 
 const Home = () => {
+  const handleNavigationClick = () => {
+    navigate('/sustentable');
+  };
+
   return (
     <Layout>
       <div className="mt-[100px]">
@@ -20,7 +24,7 @@ const Home = () => {
           </div>
           <button
             className="bg-black text-white h-12 rounded-full px-4"
-            onClick={() => console.log('Button clicked')}>
+            onClick={() => handleNavigationClick()}>
             ¿Sabes cómo?
           </button>
         </section>
@@ -34,9 +38,11 @@ const Home = () => {
             Nuestra oferta de exportación de frescos (empacados), <strong>PASTA</strong>,{' '}
             <strong>GUACAMOLE</strong> y <strong>ACEITE</strong>.
           </div>
-          <div className="flex items-center gap-4 mb-8">
-            <StaticImage src="../images/frescos.png" alt="Frescos" />
-            <span>Frescos</span>
+          <div className="flex items-center mb-8">
+            <Link to="/frescos" className="flex items-center gap-4">
+              <StaticImage src="../images/frescos.png" alt="Frescos" />
+              <span>Frescos</span>
+            </Link>
           </div>
           <div className="flex items-center gap-4 mb-8">
             <StaticImage src="../images/aceite.png" alt="Aceite" />

@@ -1,1 +1,2 @@
-import "./src/css/index.css"
+import '@fontsource/work-sans';
+import './src/css/index.css';

@@ -14,6 +14,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@fontsource/work-sans": "^4.5.7",
     "autoprefixer": "^10.4.4",
     "gatsby": "^4.11.0",
     "gatsby-plugin-image": "^2.11.0",
