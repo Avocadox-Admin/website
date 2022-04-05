@@ -3,8 +3,8 @@ module.exports = {
   plugins: [
     `gatsby-plugin-postcss`,
     `gatsby-plugin-image`,
-    `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     {
       resolve: 'gatsby-plugin-react-svg',
       options: {
@@ -12,13 +12,13 @@ module.exports = {
           include: /\.inline\.svg$/
         }
       }
-    }
-    // {
-    //   resolve: `gatsby-source-filesystem`,
-    //   options: {
-    //     name: `backgrounds`,
-    //     path: `${__dirname}/src/images/slider`,
-    //   },
-    // }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `src`,
+        path: `${__dirname}/src`,
+      },
+    },
   ]
 };
