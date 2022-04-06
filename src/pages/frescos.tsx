@@ -7,7 +7,7 @@ const Frescos = () => {
     <Layout>
       <div className="mt-[100px]">
         <section className="px-12 pb-12">
-          <StaticImage src="../images/avocado-half.png" alt="Avocado half" />
+          <StaticImage src="../images/Avocado-half.png" alt="Avocado half" />
           <div className="text-2xl font-black">Aguacate HASS FRESCO</div>
           <div className="mb-4">
             El aguacate es considerado como una de las frutas y verduras más completas; su valor
@@ -28,7 +28,7 @@ const Frescos = () => {
         </section>
         <StaticImage src="../images/sec-etapas.png" alt="Etapas" />
         <section className="px-4 py-12">
-            <StaticImage src="../images/calibres.png" alt="Calibres" />
+            <StaticImage src="../images/Calibres.png" alt="Calibres" />
         </section>
       </div>
     </Layout>
