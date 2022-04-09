@@ -9,7 +9,6 @@ import Slider from '../components/Slider';
 const Home = () => {
   const screenSize = useScreenSize();
 
-  console.log(screenSize);
   const handleNavigationClick = () => {
     navigate('/sustentable');
   };
@@ -77,8 +76,8 @@ const Home = () => {
         {screenSize === 'sm' && <div className="h-8 bg-[#ACC465]"></div>}
         <section className="w-full flex justify-center bg-black text-white">
           <div className="px-12 py-12 max-w-screen-xl">
-            <div className="text-2xl font-black">Certificaciones</div>
-            <div className="grid grid-cols-3 md:grid-cols-6">
+            <div className="text-2xl font-black mb-8">Certificaciones</div>
+            <div className="grid grid-cols-3 gap-4 md:grid-cols-6">
               <Link to="/certificaciones">
                 <StaticImage src="../images/fairtrade-negative.png" alt="Fairtrade Logo" />
               </Link>

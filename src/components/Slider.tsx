@@ -45,7 +45,7 @@ const Slider = () => {
   };
 
   return (
-    <div ref={sliderRef} className="w-full flex justify-center bg-black text-white mb-12">
+    <div ref={sliderRef} className="w-full flex justify-center text-white mb-12">
       <div className="max-w-screen-xl relative">
         <GatsbyImage image={imageData} alt="soem" />
         <div className="absolute top-[85%] left-[50%] flex gap-4">
