@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 const Contacto = () => {
   return (
     <Layout>
-      <div className="mt-[100px]">
+      <div className="mt-8">
         <section className="px-12">
           <div className="text-2xl font-black">Contacto</div>
         </section>

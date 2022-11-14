@@ -5,7 +5,7 @@ import Layout from '../components/Layout';
 const Nosotros = () => {
   return (
     <Layout>
-      <div className="mt-[100px]">
+      <div className="mt-8">
         <section className="px-12">
           <div className="text-3xl font-bold mb-4">Nuestra empresa</div>
           <div className="mb-4">

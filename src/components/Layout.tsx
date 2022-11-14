@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 import SideDrawer from './SideDrawer';
 
-const Layout = ({ children }) => {
+const Layout = ({ children }: JSX.ElementChildrenAttribute) => {
   const [showDrawer, setShowDrawer] = useState(false);
 
   return (

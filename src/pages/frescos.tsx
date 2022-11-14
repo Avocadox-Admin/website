@@ -5,7 +5,7 @@ import Layout from '../components/Layout';
 const Frescos = () => {
   return (
     <Layout>
-      <div className="mt-[100px]">
+      <div className="mt-8">
         <section className="px-12 pb-12">
           <StaticImage src="../images/Avocado-half.png" alt="Avocado half" />
           <div className="text-2xl font-black">Aguacate HASS FRESCO</div>
