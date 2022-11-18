@@ -5,7 +5,7 @@ import Layout from '../components/Layout';
 const Certificaciones = () => {
   return (
     <Layout>
-      <div className="mt-32 flex justify-center">
+      <div className="flex justify-center mt-4 md:mt-32">
         <section className="px-12 max-w-screen-xl">
           <div className="text-3xl font-black mb-8">
             Se cuenta con alianzas con Productores y prestadores de servicio de maquila que cuentan

@@ -6,8 +6,8 @@ import Layout from '../components/Layout';
 const Sustentable = () => {
   return (
     <Layout>
-      <div className="mt-8">
-        <section className="px-12 pb-12">
+      <div className="flex flex-col items-center mt-4 md:mt-32">
+        <section className="px-12 max-w-screen-xl pb-12">
           <StaticImage src="../images/sustentable-mundo.png" alt="" className="mb-12" />
           <div className="text-2xl font-black mb-8">SOSTENIBILIDAD</div>
           <div className="mb-6">

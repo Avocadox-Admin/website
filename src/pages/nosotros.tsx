@@ -5,7 +5,7 @@ import Layout from '../components/Layout';
 const Nosotros = () => {
   return (
     <Layout>
-      <div className="mt-32 flex flex-col items-center">
+      <div className="flex flex-col items-center mt-4 md:mt-32">
         <section className="px-12 max-w-screen-xl">
           <div className="text-3xl font-bold mb-4">Nuestra empresa</div>
           <div className="mb-4">

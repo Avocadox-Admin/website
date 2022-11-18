@@ -5,7 +5,7 @@ import Layout from '../components/Layout';
 const Frescos = () => {
   return (
     <Layout>
-      <div className="mt-32 flex flex-col items-center">
+      <div className="flex flex-col items-center mt-4 md:mt-32">
         <section className="px-12 pb-12 max-w-screen-xl">
           <span className="flex justify-center">
             <StaticImage src="../images/Avocado-half.png" alt="Avocado half" />
