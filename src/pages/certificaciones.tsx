@@ -8,7 +8,8 @@ const Certificaciones = () => {
       <div className="mt-32 flex justify-center">
         <section className="px-12 max-w-screen-xl">
           <div className="text-3xl font-black mb-8">
-            Contamos con certificaciones internacionales
+            Se cuenta con alianzas con Productores y prestadores de servicio de maquila que cuentan
+            con las certificaciones:
           </div>
           <div className="">
             <div className="mb-4">

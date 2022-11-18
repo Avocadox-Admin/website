@@ -5,8 +5,8 @@ import Layout from '../components/Layout';
 const Nosotros = () => {
   return (
     <Layout>
-      <div className="mt-8">
-        <section className="px-12">
+      <div className="mt-32 flex flex-col items-center">
+        <section className="px-12 max-w-screen-xl">
           <div className="text-3xl font-bold mb-4">Nuestra empresa</div>
           <div className="mb-4">
             Somos una empresa orgullosamente Michoacana para los michoacanos, para nuestro país y el
@@ -24,8 +24,8 @@ const Nosotros = () => {
           <StaticImage src="../images/avocadox-render.png" alt="Render" />
         </div>
 
-        <section className="px-12 mb-8">
-          <div className="text-2xl font-bold mb-4">Misión y Visión</div>
+        <section className="px-12 mb-8 max-w-screen-xl">
+          <div className="text-3xl font-bold mb-4">Misión y Visión</div>
           <div className="mb-4">
             MISIÓN: Cumplir con los estándares de calidad más exigentes,con las normas de inocuidad
             y proveeduría eficiente, siendo un empaque con políticas ecológicas que retribuyan a

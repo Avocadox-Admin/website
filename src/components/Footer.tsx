@@ -18,7 +18,7 @@ const Footer = () => {
           <FacebookIcon className="h-8 w-8" />
         </a>
       </div>
-      <div className="flex justify-center mt-4 gap-6">
+      <div className="flex flex-col items-center mt-4 md:justify-center  md:flex-row md:gap-6">
         <a className="flex items-center gap-2" href="mailto:direccion@avocadoxmx.com">
           <EmailIcon className="h-8 w-8"></EmailIcon>
           direccion@avocadoxmx.com
